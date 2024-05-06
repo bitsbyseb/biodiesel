@@ -5,7 +5,7 @@ import Image from "../components/image.astro";
 
 <Layout title="Biology At The Fields">
   <section
-    class="w-full lg:h-screen pt-4 px-4 text-quaternary bg-secondary font-bold lg:flex sm:flex-col justify-center items-center text-center"
+    class="w-full lg:h-screen pt-4 px-4 text-quaternary bg-secondary font-bold flex lg:flex-row max-sm:flex-col justify-center items-center text-center"
   >
     <div class="lg:w-1/2 sm:w-full lg:h-full sm:h-1/2 flex flex-col justify-center items-center">
       <h2 class="text-tertiary text-6xl font-bold">Biodiesel A Los Campos</h2>
@@ -15,13 +15,13 @@ import Image from "../components/image.astro";
     </div>
 
     <div class="lg:w-1/2 sm:w-full lg:h-full sm:h-1/2">
-      <Image url="/hojafoto.png" alt="logo" />
+      <Image url="/biodiesel/hojafoto.png" alt="logo" />
     </div>
   </section>
   <!-- -- -->
   <section class="content bg-quaternary py-4" id="recursos">
     <div class="lg:w-1/2 sm:w-full lg:h-full sm:h-1/2 flex flex-col justify-center items-center">
-      <Image alt="biodiesel" url="/biodiesel.png" />
+      <Image alt="biodiesel" url="/biodiesel/biodiesel.png" />
     </div>
     <div class="lg:w-1/2 sm:w-full lg:h-full sm:h-1/2 text-start flex flex-col justify-center">
       <h2 class="text-secondary font-bold text-5xl">¿Que es el biodiesel?</h2>
@@ -48,7 +48,7 @@ import Image from "../components/image.astro";
     </div>
 
     <div class="lg:w-1/2 sm:w-full lg:h-full sm:h-1/2">
-      <Image url="/materialesBiodiesel.jpg" alt="biodiesel photo" />
+      <Image url="/biodiesel/materialesBiodiesel.jpg" alt="biodiesel photo" />
     </div>
   </section>
   <!-- ----- -->
@@ -73,7 +73,7 @@ import Image from "../components/image.astro";
     </div>
 
     <div class="lg:w-1/2 sm:w-full lg:h-full sm:h-1/2">
-      <Image url="/biomasa.jpg" alt="Proceso de biomasa a biodiésel" />
+      <Image url="/biodiesel/biomasa.jpg" alt="Proceso de biomasa a biodiésel" />
     </div>
   </section>
   <!-- --- -->
@@ -97,12 +97,12 @@ import Image from "../components/image.astro";
     </div>
 
     <div class="lg:w-1/2 sm:w-full lg:h-full sm:h-1/2">
-      <Image url="/objetivos.png" alt="udec" />
+      <Image url="/biodiesel/objetivos.png" alt="udec" />
     </div>
   </section>
   <!-- ---- -->
-  <section class="content bg-quaternary flex flex-col px-8">
-    <h2 class="lg:text-6xl sm:text-5xl text-secondary">¿Deseas probar tus conocimientos?</h2>
+  <section class="content2 bg-quaternary flex flex-col px-8 text-center">
+    <h2 class="lg:text-6xl sm:text-5xl font-bold text-secondary">¿Deseas probar tus conocimientos?</h2>
     <p class="text-3xl">
       Usa nuestro quiz interactivo y pon aprueba lo que sabes sobre biodiesel,
       te recomendamos estudiar otras fuentes ademas de nosotros y responder las
@@ -117,11 +117,11 @@ import Image from "../components/image.astro";
   </section>
   <!-- ---- -->
   <section
-    class="content bg-tertiary flex flex-col justify-center text-start"
+    class="content2 bg-tertiary flex flex-col justify-center text-start"
     id="autores"
   >
-    <h2 class="text-6xl text-secondary">Nuestros Integrantes</h2>
-    <ul class="text-3xl list-disc">
+    <h2 class="text-6xl text-secondary font-bold">Nuestros Integrantes</h2>
+    <ul class="text-4xl list-disc">
       <li>Johan Sebastian Puentes Pulido</li>
       <li>Andrés Camilo Torres Arias</li>
       <li>Jessica Natalia Velázquez Vega</li>
